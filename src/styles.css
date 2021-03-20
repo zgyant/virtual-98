@@ -1,0 +1,55 @@
+#horizontal-whole{
+    background: #C0C0C0;
+    width:100%;
+    max-height: 27px;
+    min-height: 27px;
+    border-top: 2px solid #E8E8E8;
+    position: fixed;
+    bottom: 0;
+    padding: 3px;
+}
+#start-quick{
+    width: 20vw;
+    height: 30px;
+    float: left;
+}
+#start-button{
+    width:63px;
+    height: 27px;
+    border-color: #E8E8E8;
+    border-style: solid;
+    border-width: 2px 2px;
+    background: #C0C0C0;
+    border-image: url("images/border.svg") 64/2px;
+    display: flex;
+    align-items: center;
+}
+.divider{
+    border-left: 1px solid #C0C0C0;
+    border-right: 1px solid #C0C0C0;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#clock-icons{
+    width: 10vw;
+    height: 27px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(128, 128, 128) rgb(255, 255, 255) rgb(255, 255, 255) rgb(128, 128, 128);
+    float: right;
+    color: rgb(0, 0, 0);
+}
+#bottom-time{
+    font-family: "MS Sans Serif", "Segoe UI", sans-serif;
+    font-size: 12px;
+    width: 60px;
+    text-align: center;
+}
+.small-icons{
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+body{
+
+}
